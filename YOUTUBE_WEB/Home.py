@@ -611,7 +611,7 @@ def youtube_trend_analyzer():
     from nltk.corpus import stopwords
     from googleapiclient.discovery import build
 
-    YOUTUBE_API_KEY = "AIzaSyC6qA3UtXdLro4ML55rbRsHAzipja_vzkE"
+    YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
 
 
     nltk.download('punkt')
@@ -620,7 +620,7 @@ def youtube_trend_analyzer():
     nltk.download('averaged_perceptron_tagger')
 
     # Configure Gemini
-    GEMINI_API_KEY = "AIzaSyBWc7Ym6qMSo04uD-KtfT1JSin5AqhtyNg"
+    GEMINI_API_KEY = "GOOGLE_API_KEY"
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     # Utils
@@ -1001,7 +1001,7 @@ def image():
         import os
 
         # Set your API key here or use an environment variable
-        GOOGLE_API_KEY = "AIzaSyBWc7Ym6qMSo04uD-KtfT1JSin5AqhtyNg" # Replace with your own if needed
+        GOOGLE_API_KEY = "GOOGLE_API_KEY" # Replace with your own if needed
 
         # Initialize Gemini client
         client = genai.Client(api_key=GOOGLE_API_KEY)
@@ -1161,7 +1161,7 @@ def image():
         from io import BytesIO
 
         # Set your Gemini API Key
-        GOOGLE_API_KEY = "AIzaSyBWc7Ym6qMSo04uD-KtfT1JSin5AqhtyNg"  # Replace this with your key
+        GOOGLE_API_KEY = "GOOGLE_API_KEY"  # Replace this with your key
 
         client = genai.Client(api_key=GOOGLE_API_KEY)
 
