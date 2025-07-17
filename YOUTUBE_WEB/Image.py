@@ -54,7 +54,7 @@ with tab2:
     import os
 
     # Set your API key here or use an environment variable
-    GOOGLE_API_KEY = "AIzaSyCWl0CpJtyV348SJ9DwOpRLcEKmMaW8ZMw" # Replace with your own if needed
+    GOOGLE_API_KEY = "GOOGLE_API_KEY" # Replace with your own if needed
 
     # Initialize Gemini client
     client = genai.Client(api_key=GOOGLE_API_KEY)
@@ -100,7 +100,7 @@ with tab3:
     import os
 
     # Set your API key here or use an environment variable
-    GOOGLE_API_KEY = "AIzaSyCWl0CpJtyV348SJ9DwOpRLcEKmMaW8ZMw" # Replace with your own if needed
+    GOOGLE_API_KEY = "GOOGLE_API_KEY" # Replace with your own if needed
 
     # Initialize Gemini client
     client = genai.Client(api_key=GOOGLE_API_KEY)
