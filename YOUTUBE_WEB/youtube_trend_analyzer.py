@@ -7,7 +7,7 @@ import re
 from nltk.corpus import stopwords
 from googleapiclient.discovery import build
 
-YOUTUBE_API_KEY = "AIzaSyC6qA3UtXdLro4ML55rbRsHAzipja_vzkE"
+YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
 
 
 nltk.download('punkt')
@@ -16,7 +16,7 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 # Configure Gemini
-GEMINI_API_KEY = "AIzaSyBWc7Ym6qMSo04uD-KtfT1JSin5AqhtyNg"
+GEMINI_API_KEY = "GOOGLE_API_KEY"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Utils
