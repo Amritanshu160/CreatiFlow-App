@@ -1047,7 +1047,7 @@ def image():
         import os
 
         # Set your API key here or use an environment variable
-        GOOGLE_API_KEY = "AIzaSyBWc7Ym6qMSo04uD-KtfT1JSin5AqhtyNg" # Replace with your own if needed
+        GOOGLE_API_KEY = "GOOGLE_API_KEY" # Replace with your own if needed
 
         # Initialize Gemini client
         client = genai.Client(api_key=GOOGLE_API_KEY)
@@ -1673,3 +1673,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
